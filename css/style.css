@@ -2231,6 +2231,21 @@ main {
 
 }
 
+.love-images {
+
+    gap:10px;
+
+}
+
+
+.love-images img {
+
+    width:150px;
+
+    height:150px;
+
+}
+
 
 /* Empêche l'animation show de déplacer le bouton */
 
