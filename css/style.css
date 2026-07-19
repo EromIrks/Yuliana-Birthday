@@ -1154,25 +1154,38 @@ main {
     top: auto !important;
     left: 50% !important;
 
-    bottom: 40px !important;
+    bottom: 20px !important;
 
     margin: 0 !important;
 
     transform: translateX(-50%) !important;
 
-    width: 220px;
+    width:220px;
 
-    display: flex !important;
+    display:flex !important;
 
-    justify-content: center;
+    justify-content:center;
 
-    align-items: center;
+    align-items:center;
 
-    opacity: 0;
+    opacity:0;
 
-    pointer-events: none;
+    pointer-events:none;
 
-    transition: opacity .6s ease;
+    transition:opacity .6s ease;
+
+    z-index:100;
+
+}
+
+
+@media (max-width:600px){
+
+    .constellation-list {
+
+        padding-bottom:220px;
+
+    }
 
 }
 
@@ -2122,13 +2135,21 @@ main {
 
 @media (max-width:600px) {
 
+
+    #constellation {
+
+        padding-bottom:120px;
+
+    }
+
+
     .constellation-stars {
 
         width:250px;
 
-        height:200px;
+        height:220px;
 
-        margin-bottom:80px;
+        margin-bottom:100px;
 
     }
 
@@ -2137,13 +2158,18 @@ main {
 
         width:90%;
 
+        max-width:350px;
+
+        padding-bottom:150px;
+
     }
 
 
     .constellation-entry {
 
-        margin-top:20px;
+        margin-bottom:35px;
 
     }
+
 
 }
