@@ -2198,6 +2198,39 @@ main {
     padding-bottom:0 !important;
 }
 
+.story-characters {
+
+    gap:10px;
+
+    width:100%;
+
+}
+
+
+.story-card {
+
+    width:150px;
+
+    padding:10px;
+
+}
+
+
+.story-image {
+
+    width:100px;
+
+    height:100px;
+
+}
+
+
+.story-star {
+
+    font-size:1.8rem;
+
+}
+
 
 /* Empêche l'animation show de déplacer le bouton */
 
