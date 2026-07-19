@@ -1,0 +1,39 @@
+.character-card {
+
+    animation:
+
+        characterReveal 1.5s ease forwards;
+
+}
+
+
+
+@keyframes characterReveal {
+
+
+    0% {
+
+        opacity:0;
+
+        transform:
+
+        scale(0.5)
+        rotateY(90deg);
+
+    }
+
+
+    100% {
+
+        opacity:1;
+
+        transform:
+
+        scale(1)
+        rotateY(0);
+
+    }
+
+
+}
+
