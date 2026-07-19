@@ -2166,13 +2166,30 @@ main {
 
     position:relative !important;
 
-    bottom:auto !important;
-
     left:auto !important;
+
+    bottom:auto !important;
 
     transform:none !important;
 
+    width:220px !important;
+
+    height:auto !important;
+
+    min-height:50px;
+
     margin:80px auto 100px !important;
+
+    display:flex !important;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    white-space:nowrap;
+
 
     }
 
