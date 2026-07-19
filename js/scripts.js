@@ -54,7 +54,7 @@ startButton.addEventListener("click", () => {
             document.querySelector(".intro-line")
             .classList.add("show-text");
 
-        },100);
+        },300);
 
 
 
