@@ -2164,7 +2164,15 @@ main {
 
     #memoriesButton {
 
-        bottom:20px !important;
+    position:relative !important;
+
+    bottom:auto !important;
+
+    left:auto !important;
+
+    transform:none !important;
+
+    margin:80px auto 100px !important;
 
     }
 
