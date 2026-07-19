@@ -1,5 +1,7 @@
 const startButton = document.getElementById("startButton");
 
+const bgMusic = document.getElementById("bgMusic");
+
 const transitionMessage = document.getElementById("transitionMessage");
 
 const introContent = document.getElementById("introContent");
@@ -35,6 +37,37 @@ const thankYou = document.getElementById("thankYou");
 if(startButton){
 
 startButton.addEventListener("click", () => {
+
+    if(bgMusic){
+
+    bgMusic.volume = 0;
+
+    bgMusic.play();
+
+
+    let volume = 0;
+
+
+    let fade = setInterval(()=>{
+
+
+        if(volume < 0.25){
+
+            volume += 0.01;
+
+            bgMusic.volume = volume;
+
+
+        }else{
+
+            clearInterval(fade);
+
+        }
+
+
+    },100);
+
+}
 
 
     introContent.classList.add("fade-out");
