@@ -2178,7 +2178,7 @@ main {
 
     min-height:50px;
 
-    margin:30px auto 80px !important;
+    margin:20px auto 40px !important;
 
     display:flex !important;
 
@@ -2192,6 +2192,10 @@ main {
 
     align-self:center;
 
+}
+
+.constellation-list {
+    padding-bottom:0 !important;
 }
 
 
