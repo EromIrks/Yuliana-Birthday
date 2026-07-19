@@ -2168,13 +2168,13 @@ main {
 
     left:auto !important;
 
+    right:auto !important;
+
     bottom:auto !important;
 
     transform:none !important;
 
     width:220px !important;
-
-    height:auto !important;
 
     min-height:50px;
 
@@ -2192,7 +2192,15 @@ main {
 
     align-self:center;
 
+}
 
-    }
+
+/* Empêche l'animation show de déplacer le bouton */
+
+#memoriesButton.show {
+
+    transform:none !important;
+
+}
 
 }
