@@ -1153,7 +1153,7 @@ main {
 
     top: auto !important;
     left: 50% !important;
-
+    right: auto !important;
     bottom: 20px !important;
 
     margin: 0 !important;
@@ -1177,18 +1177,6 @@ main {
     z-index:100;
 
 }
-
-
-@media (max-width:600px){
-
-    .constellation-list {
-
-        padding-bottom:220px;
-
-    }
-
-}
-
 
 #memoriesButton.show {
 
@@ -2136,20 +2124,13 @@ main {
 @media (max-width:600px) {
 
 
-    #constellation {
-
-        padding-bottom:120px;
-
-    }
-
-
     .constellation-stars {
 
         width:250px;
 
-        height:220px;
+        height:280px;
 
-        margin-bottom:100px;
+        margin-bottom:80px;
 
     }
 
@@ -2158,16 +2139,14 @@ main {
 
         width:90%;
 
-        max-width:350px;
-
-        padding-bottom:150px;
+        padding-bottom:200px;
 
     }
 
 
     .constellation-entry {
 
-        margin-bottom:35px;
+        margin-top:40px;
 
     }
 
