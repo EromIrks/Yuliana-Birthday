@@ -2123,32 +2123,41 @@ main {
 
 @media (max-width:600px) {
 
+    #constellation {
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+
+    }
+
 
     .constellation-stars {
 
-        width:250px;
+        flex-shrink:0;
 
-        height:280px;
-
-        margin-bottom:80px;
+        margin-bottom:120px;
 
     }
 
 
     .constellation-list {
 
-        width:90%;
+        margin-top:60px;
 
-        padding-bottom:200px;
+        position:relative;
+
+        z-index:10;
 
     }
 
 
     .constellation-entry {
 
-        margin-top:40px;
+        position:relative;
+
+        z-index:20;
 
     }
-
 
 }
