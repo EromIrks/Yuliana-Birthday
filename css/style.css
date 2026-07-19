@@ -2120,3 +2120,30 @@ main {
 
 }
 
+@media (max-width:600px) {
+
+    .constellation-stars {
+
+        width:250px;
+
+        height:200px;
+
+        margin-bottom:80px;
+
+    }
+
+
+    .constellation-list {
+
+        width:90%;
+
+    }
+
+
+    .constellation-entry {
+
+        margin-top:20px;
+
+    }
+
+}
