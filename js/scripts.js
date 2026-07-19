@@ -36,98 +36,78 @@ const thankYou = document.getElementById("thankYou");
 
 if(startButton){
 
-startButton.addEventListener("click", () => {
-
-    if(bgMusic){
-
-    bgMusic.volume = 0;
-
-    bgMusic.play();
+    startButton.addEventListener("click", () => {
 
 
-    let volume = 0;
+        if(bgMusic){
 
+            console.log(bgMusic);
 
-    let fade = setInterval(()=>{
+            bgMusic.volume = 0.02;
 
-
-        if(volume < 0.18){
-
-            volume += 0.01;
-
-            bgMusic.volume = volume;
-
-
-        }else{
-
-            clearInterval(fade);
+            bgMusic.play();
 
         }
 
 
-    },100);
-
-}
-
-
-    introContent.classList.add("fade-out");
-
-
-    setTimeout(() => {
-
-
-        introContent.style.display = "none";
-
-
-        transitionMessage.classList.remove("hidden");
-
-
-        setTimeout(() => {
-
-            document.querySelector(".intro-line")
-            .classList.add("show-text");
-
-        },300);
-
-
-
-        setTimeout(() => {
-
-            document.querySelector(".name-reveal")
-            .classList.add("show-text");
-
-        },1500);
-
-
-
-        setTimeout(() => {
-
-            document.querySelector(".star-reveal")
-            .classList.add("show-text");
-
-        },2600);
-
+        introContent.classList.add("fade-out");
 
 
         setTimeout(() => {
 
 
-            transitionMessage.classList.add("hidden");
+            introContent.style.display = "none";
 
 
-            characterReveal.classList.remove("hidden");
-
-            characterReveal.classList.add("show");
+            transitionMessage.classList.remove("hidden");
 
 
-        },4000);
+            setTimeout(() => {
+
+                document.querySelector(".intro-line")
+                .classList.add("show-text");
+
+            },300);
 
 
 
-    },3000);
+            setTimeout(() => {
+
+                document.querySelector(".name-reveal")
+                .classList.add("show-text");
+
+            },1500);
 
 
-});
+
+            setTimeout(() => {
+
+                document.querySelector(".star-reveal")
+                .classList.add("show-text");
+
+            },2600);
+
+
+
+            setTimeout(() => {
+
+
+                transitionMessage.classList.add("hidden");
+
+
+                characterReveal.classList.remove("hidden");
+
+                characterReveal.classList.add("show");
+
+
+            },4000);
+
+
+
+        },3000);
+
+
+    });
 
 }
 
