@@ -51,7 +51,7 @@ startButton.addEventListener("click", () => {
     let fade = setInterval(()=>{
 
 
-        if(volume < 0.25){
+        if(volume < 0.18){
 
             volume += 0.01;
 
